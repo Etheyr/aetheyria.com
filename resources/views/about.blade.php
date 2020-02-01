@@ -1,6 +1,6 @@
 @extends('index')
 
-@section('apropos')
+@section('about')
 
 <!-- About Section -->
 <section class="page-section bg-primary text-white mb-0" id="about">

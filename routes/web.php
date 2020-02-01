@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/galerie', function () {
+    return view('galerie');
+});
+
+Route::get('/header', function () {
+    return view('header');
+});
+
+Route::get('/portFolio', function () {
+    return view('portFolio');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
 });

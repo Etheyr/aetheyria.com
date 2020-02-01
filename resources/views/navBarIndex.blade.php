@@ -1,6 +1,6 @@
 @extends('index')
 
-@section('navBarTop')
+@section('navBarIndex')
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
   <div class="container">

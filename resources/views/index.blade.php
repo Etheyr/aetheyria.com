@@ -20,8 +20,8 @@
   </head>
 
   @yield('header')
-  @yield('navBarTop')
-  @yield('portfolio')
+  @yield('navBarIndex')
+  @yield('portFolio')
 
   <div class="preloader-wrapper active">
     <div class="spinner-layer spinner-blue-only">
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  @yield('apropos')
+  @yield('about')
   @yield('contact')
   @yield('footer')
 
