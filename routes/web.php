@@ -12,25 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+	return view('index');
 });
 
 Route::get('/galerie', function () {
-    return view('galerie');
+	return view('gallery');
 });
 
 Route::get('/header', function () {
-    return view('header');
+	return view('header');
 });
 
 Route::get('/portFolio', function () {
-    return view('portFolio');
+	return view('portFolio');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+	return view('contact');
 });
 
 Route::get('/about', function () {
-    return view('about');
+	return view('about');
 });
